@@ -18,7 +18,7 @@ app.use(async(ctx, next) => {
 const seatTypes = ['stall', 'royal circle', 'grand circle', 'balcony'];
 const statusTypes = ['available', 'reserved', 'confirmed', 'taken'];
 const seats = [];
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 9; i++) {
     seats.push({
         id: i + 1,
         name: "#" + (i + 1),
